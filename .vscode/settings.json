@@ -3,12 +3,7 @@
   "eslint.enable": true,
   "less.validate": false,
   "scss.validate": false,
-  "stylelint.validate": [
-    "css",
-    "less",
-    "postcss",
-    "scss"
-  ],
+  "stylelint.validate": ["css", "less", "postcss", "scss"],
   "tslint.enable": false,
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -26,6 +21,11 @@
     "editor.formatOnSave": true
   },
   "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true
+  },
+  "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true
