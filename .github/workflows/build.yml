@@ -1,11 +1,11 @@
-name: lint
+name: build
 on:
   - push
   - pull_request
 
 jobs:
-  lint:
-    name: Lint
+  build:
+    name: Build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -14,5 +14,6 @@ jobs:
           node-version-file: '.node-version'
           cache: 'yarn'
       - run: yarn install
+      - run: yarn build
       - run: yarn check
       - run: yarn lint
