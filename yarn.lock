@@ -152,6 +152,7 @@ __metadata:
   resolution: "@sharparam/shelt@workspace:."
   dependencies:
     "@sveltejs/adapter-auto": next
+    "@sveltejs/adapter-static": next
     "@sveltejs/kit": next
     "@typescript-eslint/eslint-plugin": ^5.10.1
     "@typescript-eslint/parser": ^5.10.1
@@ -202,6 +203,15 @@ __metadata:
     esbuild: ^0.14.21
     tiny-glob: ^0.2.9
   checksum: abb995958a888eb20a3deb92e787c2b51647ba5d6d57cdbebbb0eb5e5e200913755a5518c1e1e4ec08e9764e0b91da9afd60a4518cf032c3c238f4348917dbf4
+  languageName: node
+  linkType: hard
+
+"@sveltejs/adapter-static@npm:next":
+  version: 1.0.0-next.29
+  resolution: "@sveltejs/adapter-static@npm:1.0.0-next.29"
+  dependencies:
+    tiny-glob: ^0.2.9
+  checksum: 4cd130ff79fc7db5449eedc730aecdf103d93ed09a03e8c949a0613953434cd62a3ad147e43600af0894795d540a2f4fd2d0957ea118e33d3caeded186e1e93f
   languageName: node
   linkType: hard
 
