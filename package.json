@@ -49,6 +49,7 @@
     "postcss": "^8.4.12",
     "prettier": "^2.5.1",
     "prettier-plugin-svelte": "^2.5.0",
+    "sanitize.css": "^13.0.0",
     "sass": "^1.49.10",
     "stylelint": "^14.6.1",
     "stylelint-config-prettier-scss": "^0.0.1",

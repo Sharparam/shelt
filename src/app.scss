@@ -1,0 +1,27 @@
+@import 'sanitize.css';
+@import 'sanitize.css/forms.css';
+@import 'sanitize.css/assets.css';
+@import 'sanitize.css/typography.css';
+@import 'sanitize.css/reduce-motion.css';
+
+$text-color: hsl(0deg 0% 93%);
+$bg-color: hsl(240deg 8% 24%);
+$link-color: hsl(128deg 90% 40%);
+$visited-color: hsl(128deg 90% 40%);
+
+body {
+  background: $bg-color;
+  color: $text-color;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  text-align: justify;
+}
+
+a {
+  color: $link-color;
+}
+
+a:visited {
+  color: $visited-color;
+}
