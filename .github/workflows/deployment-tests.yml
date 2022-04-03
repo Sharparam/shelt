@@ -1,12 +1,12 @@
-name: build
+name: Deployment Tests
 on:
-  - push
-  - pull_request
+  deployment_status:
 
 jobs:
-  build:
-    name: Build
+  test:
+    timeout-minutes: 60
     runs-on: ubuntu-latest
+    if: github.event.deployment_status.state == 'success'
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
@@ -19,15 +19,7 @@ jobs:
         run: yarn exec playwright install --with-deps
       - name: Build project
         run: yarn build
-      - name: Check types
-        run: yarn check
-      - name: Run linters
-        run: yarn lint
-      - name: Run tests
+      - name: Run Playwright tests
         run: yarn test
-      - name: Upload test results
-        if: always()
-        uses: actions/upload-artifact@v2
-        with:
-          name: playwright-results
-          path: test-results
+        env:
+          PLAYWRIGHT_TEST_BASE_URL: ${{ github.event.deployment_status.target_url }}
