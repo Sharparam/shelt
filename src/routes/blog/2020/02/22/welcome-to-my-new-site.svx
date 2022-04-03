@@ -1,0 +1,13 @@
+---
+title: 'Welcome to my new site!'
+date: '2020-02-23T02:27:29+01:00'
+layout: blog
+blurb: |
+  After being too lazy to update my previous site made with Ruby on Rails, I decided to put up this Jekylls-generated site. At least as a "placeholder" until I can be arsed to get my rails site up again.
+---
+
+After being too lazy to update my previous site made with Ruby on Rails,
+I decided to put up this Jekylls-generated site. At least as a "placeholder"
+until I can be arsed to get my rails site up again.
+
+Enjoy the new site!

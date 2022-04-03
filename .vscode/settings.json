@@ -5,6 +5,9 @@
   "scss.validate": false,
   "stylelint.validate": ["css", "less", "postcss", "scss"],
   "tslint.enable": false,
+  "files.associations": {
+    "*.svx": "markdown"
+  },
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnPaste": true,
@@ -26,6 +29,11 @@
     "editor.formatOnSave": true
   },
   "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true
+  },
+  "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true

@@ -1,0 +1,31 @@
+---
+title: Test post
+date: '2022-04-03T22:40:00+02:00'
+layout: blog
+blurb: This here text is a "blurb"!
+---
+
+This is a post to test some markdown.
+
+```ts
+console.log('It has syntax highlighting');
+
+const which: string = 'is pretty neat';
+```
+
+And also GitHub-style tables:
+
+| Header 1 | Header 2 |
+| -------- | -------- |
+| Cell 1   | Cell 2   |
+| Cell 3   | Cell 4   |
+
+They might need some styling though...
+
+Quote marks are also "handled properly", both double and 'single quotes'.
+
+Let's see if we can get a picture of a kitten:
+
+![A placeholder kitten](https://placekitten.com/200/300)
+
+Emojis can be entered by using the `:emoji:` syntax: `:upside_down_face:` turns into :upside_down_face:.
