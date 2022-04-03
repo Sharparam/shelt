@@ -15,14 +15,14 @@
       <li>
         <a
           sveltekit:prefetch
-          class:current={$page.url.pathname === '/about'}
+          class:current={$page.url.pathname.match(/\/about\/?/)}
           href="/about">About</a
         >
       </li>
       <li>
         <a
           sveltekit:prefetch
-          class:current={$page.url.pathname === '/contact'}
+          class:current={$page.url.pathname.match(/\/contact\/?/)}
           href="/contact">Contact</a
         >
       </li>
