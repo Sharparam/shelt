@@ -27,7 +27,7 @@ jobs:
         run: yarn test
       - name: Upload test results
         if: always()
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: playwright-results
           path: test-results
