@@ -154,24 +154,24 @@ __metadata:
     "@sveltejs/adapter-auto": next
     "@sveltejs/adapter-static": next
     "@sveltejs/kit": next
-    "@typescript-eslint/eslint-plugin": ^5.10.1
-    "@typescript-eslint/parser": ^5.10.1
-    eslint: ^7.32.0
-    eslint-config-prettier: ^8.3.0
-    eslint-plugin-svelte3: ^3.2.1
-    postcss: ^8.4.12
-    prettier: ^2.5.1
-    prettier-plugin-svelte: ^2.5.0
-    sanitize.css: ^13.0.0
-    sass: ^1.49.10
-    stylelint: ^14.6.1
-    stylelint-config-prettier-scss: ^0.0.1
-    stylelint-config-standard-scss: ^3.0.0
-    svelte: ^3.44.0
-    svelte-check: ^2.2.6
-    svelte-preprocess: ^4.10.1
-    tslib: ^2.3.1
-    typescript: ~4.6.2
+    "@typescript-eslint/eslint-plugin": 5.17.0
+    "@typescript-eslint/parser": 5.17.0
+    eslint: 7.32.0
+    eslint-config-prettier: 8.5.0
+    eslint-plugin-svelte3: 3.4.1
+    postcss: 8.4.12
+    prettier: 2.6.1
+    prettier-plugin-svelte: 2.6.0
+    sanitize.css: 13.0.0
+    sass: 1.49.10
+    stylelint: 14.6.1
+    stylelint-config-prettier-scss: 0.0.1
+    stylelint-config-standard-scss: 3.0.0
+    svelte: 3.46.6
+    svelte-check: 2.4.6
+    svelte-preprocess: 4.10.4
+    tslib: 2.3.1
+    typescript: 4.6.3
   languageName: unknown
   linkType: soft
 
@@ -318,7 +318,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/eslint-plugin@npm:^5.10.1":
+"@typescript-eslint/eslint-plugin@npm:5.17.0":
   version: 5.17.0
   resolution: "@typescript-eslint/eslint-plugin@npm:5.17.0"
   dependencies:
@@ -341,7 +341,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:^5.10.1":
+"@typescript-eslint/parser@npm:5.17.0":
   version: 5.17.0
   resolution: "@typescript-eslint/parser@npm:5.17.0"
   dependencies:
@@ -1221,7 +1221,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-prettier@npm:^8.3.0":
+"eslint-config-prettier@npm:8.5.0":
   version: 8.5.0
   resolution: "eslint-config-prettier@npm:8.5.0"
   peerDependencies:
@@ -1232,7 +1232,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-svelte3@npm:^3.2.1":
+"eslint-plugin-svelte3@npm:3.4.1":
   version: 3.4.1
   resolution: "eslint-plugin-svelte3@npm:3.4.1"
   peerDependencies:
@@ -1293,7 +1293,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^7.32.0":
+"eslint@npm:7.32.0":
   version: 7.32.0
   resolution: "eslint@npm:7.32.0"
   dependencies:
@@ -2629,7 +2629,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.4.12":
+"postcss@npm:8.4.12, postcss@npm:^8.4.12":
   version: 8.4.12
   resolution: "postcss@npm:8.4.12"
   dependencies:
@@ -2647,7 +2647,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-svelte@npm:^2.5.0":
+"prettier-plugin-svelte@npm:2.6.0":
   version: 2.6.0
   resolution: "prettier-plugin-svelte@npm:2.6.0"
   peerDependencies:
@@ -2657,7 +2657,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^2.5.1":
+"prettier@npm:2.6.1":
   version: 2.6.1
   resolution: "prettier@npm:2.6.1"
   bin:
@@ -2919,14 +2919,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sanitize.css@npm:^13.0.0":
+"sanitize.css@npm:13.0.0":
   version: 13.0.0
   resolution: "sanitize.css@npm:13.0.0"
   checksum: a99ca77c4d135800a4a93c3555e5aa4a2eb040a833df716dbe9132e1f2086fbf9acdb8021a579f40dcf77166d2d50f3358b4b6121a247d26fed5a0e6f5af3bb7
   languageName: node
   linkType: hard
 
-"sass@npm:^1.49.10":
+"sass@npm:1.49.10":
   version: 1.49.10
   resolution: "sass@npm:1.49.10"
   dependencies:
@@ -3181,7 +3181,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint-config-prettier-scss@npm:^0.0.1":
+"stylelint-config-prettier-scss@npm:0.0.1":
   version: 0.0.1
   resolution: "stylelint-config-prettier-scss@npm:0.0.1"
   dependencies:
@@ -3229,7 +3229,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint-config-standard-scss@npm:^3.0.0":
+"stylelint-config-standard-scss@npm:3.0.0":
   version: 3.0.0
   resolution: "stylelint-config-standard-scss@npm:3.0.0"
   dependencies:
@@ -3267,7 +3267,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint@npm:^14.6.1":
+"stylelint@npm:14.6.1":
   version: 14.6.1
   resolution: "stylelint@npm:14.6.1"
   dependencies:
@@ -3353,7 +3353,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"svelte-check@npm:^2.2.6":
+"svelte-check@npm:2.4.6":
   version: 2.4.6
   resolution: "svelte-check@npm:2.4.6"
   dependencies:
@@ -3383,7 +3383,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"svelte-preprocess@npm:^4.0.0, svelte-preprocess@npm:^4.10.1":
+"svelte-preprocess@npm:4.10.4, svelte-preprocess@npm:^4.0.0":
   version: 4.10.4
   resolution: "svelte-preprocess@npm:4.10.4"
   dependencies:
@@ -3432,7 +3432,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"svelte@npm:^3.44.0":
+"svelte@npm:3.46.6":
   version: 3.46.6
   resolution: "svelte@npm:3.46.6"
   checksum: 0a502f16097010dfe028ee93df3714add39cb608e4c23b2d9cc2190b305838c9020d42c57ad8a285b9c003e43c0dd23e8d24dacc0034678dcba2df5879992efa
@@ -3506,17 +3506,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"tslib@npm:2.3.1":
+  version: 2.3.1
+  resolution: "tslib@npm:2.3.1"
+  checksum: de17a98d4614481f7fcb5cd53ffc1aaf8654313be0291e1bfaee4b4bb31a20494b7d218ff2e15017883e8ea9626599b3b0e0229c18383ba9dce89da2adf15cb9
+  languageName: node
+  linkType: hard
+
 "tslib@npm:^1.8.1":
   version: 1.14.1
   resolution: "tslib@npm:1.14.1"
   checksum: dbe628ef87f66691d5d2959b3e41b9ca0045c3ee3c7c7b906cc1e328b39f199bb1ad9e671c39025bd56122ac57dfbf7385a94843b1cc07c60a4db74795829acd
-  languageName: node
-  linkType: hard
-
-"tslib@npm:^2.3.1":
-  version: 2.3.1
-  resolution: "tslib@npm:2.3.1"
-  checksum: de17a98d4614481f7fcb5cd53ffc1aaf8654313be0291e1bfaee4b4bb31a20494b7d218ff2e15017883e8ea9626599b3b0e0229c18383ba9dce89da2adf15cb9
   languageName: node
   linkType: hard
 
@@ -3568,7 +3568,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:*, typescript@npm:~4.6.2":
+"typescript@npm:*, typescript@npm:4.6.3":
   version: 4.6.3
   resolution: "typescript@npm:4.6.3"
   bin:
@@ -3578,7 +3578,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@*#~builtin<compat/typescript>, typescript@patch:typescript@~4.6.2#~builtin<compat/typescript>":
+"typescript@patch:typescript@*#~builtin<compat/typescript>, typescript@patch:typescript@4.6.3#~builtin<compat/typescript>":
   version: 4.6.3
   resolution: "typescript@patch:typescript@npm%3A4.6.3#~builtin<compat/typescript>::version=4.6.3&hash=bda367"
   bin:
