@@ -50,7 +50,7 @@
     "prettier": "2.6.1",
     "prettier-plugin-svelte": "2.6.0",
     "sanitize.css": "13.0.0",
-    "sass": "1.49.10",
+    "sass": "1.49.11",
     "stylelint": "14.6.1",
     "stylelint-config-prettier-scss": "0.0.1",
     "stylelint-config-standard-scss": "3.0.0",
