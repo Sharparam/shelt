@@ -1,5 +1,5 @@
 <script context="module" lang="ts">
-  export const load = ({ error, status }) => {
+  export const load = ({ status }) => {
     let message = 'Something went wrong :(';
     let details: string | undefined = undefined;
     switch (status) {
