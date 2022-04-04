@@ -763,17 +763,17 @@ __metadata:
     "@sveltejs/kit": next
     "@typescript-eslint/eslint-plugin": 5.17.0
     "@typescript-eslint/parser": 5.17.0
-    date-fns: ^2.28.0
+    date-fns: 2.28.0
     eslint: 8.12.0
     eslint-config-prettier: 8.5.0
     eslint-plugin-svelte3: 3.4.1
-    mdsvex: ^0.10.5
+    mdsvex: 0.10.5
     postcss: 8.4.12
     prettier: 2.6.2
     prettier-plugin-svelte: 2.6.0
-    prism-themes: ^1.9.0
-    remark-emoji: ^3.0.2
-    remark-gfm: ^3.0.1
+    prism-themes: 1.9.0
+    remark-emoji: 3.0.2
+    remark-gfm: 3.0.1
     sanitize.css: 13.0.0
     sass: 1.49.11
     stylelint: 14.6.1
@@ -1650,7 +1650,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"date-fns@npm:^2.28.0":
+"date-fns@npm:2.28.0":
   version: 2.28.0
   resolution: "date-fns@npm:2.28.0"
   checksum: a0516b2e4f99b8bffc6cc5193349f185f195398385bdcaf07f17c2c4a24473c99d933eb0018be4142a86a6d46cb0b06be6440ad874f15e795acbedd6fd727a1f
@@ -3372,7 +3372,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mdsvex@npm:^0.10.5":
+"mdsvex@npm:0.10.5":
   version: 0.10.5
   resolution: "mdsvex@npm:0.10.5"
   dependencies:
@@ -4372,7 +4372,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prism-themes@npm:^1.9.0":
+"prism-themes@npm:1.9.0":
   version: 1.9.0
   resolution: "prism-themes@npm:1.9.0"
   checksum: ddbadb8d83fc23e428409d7dd1d62dde6033a3afabd721d292e2d251f5693e3eccb7f9641704374f3df3dde59c0e2c8a3c069a7aa72990c4a00acb57f2af81f8
@@ -4533,7 +4533,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"remark-emoji@npm:^3.0.2":
+"remark-emoji@npm:3.0.2":
   version: 3.0.2
   resolution: "remark-emoji@npm:3.0.2"
   dependencies:
@@ -4544,7 +4544,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"remark-gfm@npm:^3.0.1":
+"remark-gfm@npm:3.0.1":
   version: 3.0.1
   resolution: "remark-gfm@npm:3.0.1"
   dependencies:
