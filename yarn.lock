@@ -766,7 +766,7 @@ __metadata:
     date-fns: 2.28.0
     eslint: 8.14.0
     eslint-config-prettier: 8.5.0
-    eslint-plugin-svelte3: 3.4.1
+    eslint-plugin-svelte3: 4.0.0
     mdsvex: 0.10.5
     postcss: 8.4.12
     prettier: 2.6.2
@@ -2116,13 +2116,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-svelte3@npm:3.4.1":
-  version: 3.4.1
-  resolution: "eslint-plugin-svelte3@npm:3.4.1"
+"eslint-plugin-svelte3@npm:4.0.0":
+  version: 4.0.0
+  resolution: "eslint-plugin-svelte3@npm:4.0.0"
   peerDependencies:
-    eslint: ">=6.0.0"
+    eslint: ">=8.0.0"
     svelte: ^3.2.0
-  checksum: 49483ab87285d62951eb3ba2aa6b896a96b174e907a1cf6ee7a98dccda83c86b285f295dcf19bc463ee087d7c2ebb5c179953b7c4bddb001cb7fa337bf5cd304
+  checksum: 5e9ddddedee44ac099290cda6e86f412c6f4f2cbdeee860eb2b617c66d3cca7699638c6191ed55c4a7651b57b8387202f62b5b0e0417219c59cdd084dcab4e07
   languageName: node
   linkType: hard
 
