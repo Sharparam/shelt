@@ -809,7 +809,7 @@ __metadata:
     remark-emoji: 3.0.2
     remark-gfm: 3.0.1
     sanitize.css: 13.0.0
-    sass: 1.52.2
+    sass: 1.53.0
     stylelint: 14.9.1
     stylelint-config-prettier-scss: 0.0.1
     stylelint-config-standard-scss: 4.0.0
@@ -4758,16 +4758,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:1.52.2":
-  version: 1.52.2
-  resolution: "sass@npm:1.52.2"
+"sass@npm:1.53.0":
+  version: 1.53.0
+  resolution: "sass@npm:1.53.0"
   dependencies:
     chokidar: ">=3.0.0 <4.0.0"
     immutable: ^4.0.0
     source-map-js: ">=0.6.2 <2.0.0"
   bin:
     sass: sass.js
-  checksum: d5efcbad4bc2efe638cd12665f8aeedc20f4e6b1cd2454624334f9189e9ab8a73708241232f102f6f873ee56fb64d993a67ff23bf669da5c2cf7495412007739
+  checksum: 4bcb0617d6a4d1f2c089a1cb5c32f65a9ee874b23559f2742fab07cf8478fb74ad20c0730cf9f93915d7dbfc258901f89970674228c3ac91c3883a0a62a0ddab
   languageName: node
   linkType: hard
 
