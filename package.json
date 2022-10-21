@@ -52,7 +52,7 @@
     "mdsvex": "0.10.6",
     "postcss": "8.4.17",
     "prettier": "2.7.1",
-    "prettier-plugin-svelte": "2.7.1",
+    "prettier-plugin-svelte": "2.8.0",
     "prism-themes": "1.9.0",
     "remark-emoji": "3.0.2",
     "remark-gfm": "3.0.1",
