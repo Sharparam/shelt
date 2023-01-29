@@ -51,7 +51,7 @@
     "eslint-plugin-svelte3": "4.0.0",
     "mdsvex": "0.10.6",
     "postcss": "8.4.21",
-    "prettier": "2.7.1",
+    "prettier": "2.8.3",
     "prettier-plugin-svelte": "2.9.0",
     "prism-themes": "1.9.0",
     "remark-emoji": "3.0.2",
