@@ -5,5 +5,8 @@
     ":automergeTesters",
     ":label(dependencies)",
     ":assignAndReview(Sharparam)"
+  ],
+  "schedule": [
+    "before 8am on Monday"
   ]
 }
