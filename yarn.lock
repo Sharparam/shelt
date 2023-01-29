@@ -813,7 +813,7 @@ __metadata:
     prettier: 2.8.3
     prettier-plugin-svelte: 2.9.0
     prism-themes: 1.9.0
-    remark-emoji: 3.0.2
+    remark-emoji: 3.1.0
     remark-gfm: 3.0.1
     sanitize.css: 13.0.0
     sass: 1.57.1
@@ -1846,7 +1846,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"emoticon@npm:^4.0.0":
+"emoticon@npm:^4.0.1":
   version: 4.0.1
   resolution: "emoticon@npm:4.0.1"
   checksum: 991ab6421927601af4eb44036b60e3125759a4d81f32d2ad96b66e3491e2fdb6a026eeb6bffbfa66724592dca95235570785963607d16961ea73a62ecce715e2
@@ -3330,6 +3330,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"mdast-util-find-and-replace@npm:^2.2.2":
+  version: 2.2.2
+  resolution: "mdast-util-find-and-replace@npm:2.2.2"
+  dependencies:
+    "@types/mdast": ^3.0.0
+    escape-string-regexp: ^5.0.0
+    unist-util-is: ^5.0.0
+    unist-util-visit-parents: ^5.0.0
+  checksum: b4ce463c43fe6e1c38a53a89703f755c84ab5437f49bff9a0ac751279733332ca11c85ed0262aa6c17481f77b555d26ca6d64e70d6814f5b8d12d34a3e53a60b
+  languageName: node
+  linkType: hard
+
 "mdast-util-from-markdown@npm:^1.0.0":
   version: 1.2.0
   resolution: "mdast-util-from-markdown@npm:1.2.0"
@@ -4651,14 +4663,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"remark-emoji@npm:3.0.2":
-  version: 3.0.2
-  resolution: "remark-emoji@npm:3.0.2"
+"remark-emoji@npm:3.1.0":
+  version: 3.1.0
+  resolution: "remark-emoji@npm:3.1.0"
   dependencies:
-    emoticon: ^4.0.0
+    emoticon: ^4.0.1
+    mdast-util-find-and-replace: ^2.2.2
     node-emoji: ^1.11.0
-    unist-util-visit: ^4.1.0
-  checksum: e5e3cccca64424073f7421d40ebf50e9ea3ca4604ee09cda7d0c8d3dba31f29fb99a6fac249709937e4eba259bca78431401eb11e319471b55a22d9eaf05471f
+  checksum: 067c482ecc5d1b1bec29082c1a93256b68eb8f495d90bbd203575a58585abb73f0782cff160c3111f4e0f1d3e014f89aec29540f84716a371d6b15e5916110f4
   languageName: node
   linkType: hard
 
@@ -5678,7 +5690,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unist-util-visit@npm:^4.0.0, unist-util-visit@npm:^4.1.0":
+"unist-util-visit@npm:^4.0.0":
   version: 4.1.0
   resolution: "unist-util-visit@npm:4.1.0"
   dependencies:
