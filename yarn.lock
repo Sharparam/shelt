@@ -813,7 +813,7 @@ __metadata:
     prettier: 2.8.3
     prettier-plugin-svelte: 2.9.0
     prism-themes: 1.9.0
-    remark-emoji: 3.1.0
+    remark-emoji: 3.1.2
     remark-gfm: 3.0.1
     sanitize.css: 13.0.0
     sass: 1.57.1
@@ -4680,14 +4680,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"remark-emoji@npm:3.1.0":
-  version: 3.1.0
-  resolution: "remark-emoji@npm:3.1.0"
+"remark-emoji@npm:3.1.2":
+  version: 3.1.2
+  resolution: "remark-emoji@npm:3.1.2"
   dependencies:
     emoticon: ^4.0.1
     mdast-util-find-and-replace: ^2.2.2
     node-emoji: ^1.11.0
-  checksum: 067c482ecc5d1b1bec29082c1a93256b68eb8f495d90bbd203575a58585abb73f0782cff160c3111f4e0f1d3e014f89aec29540f84716a371d6b15e5916110f4
+  checksum: da6a5cb06d8967e4ae3b197e2f18a92f2036ea51908f9eab322fb17cd0e721c957a73ec9a68b09b848287e527341a6d439ea71343a5755c92216dd7db6170d3e
   languageName: node
   linkType: hard
 
